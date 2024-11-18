@@ -1,5 +1,6 @@
 import React from "react"; //importar o react
 import './index.css'
+import { Link } from "react-router-dom";
 
 //agora definir o cabeçalho/header como uma função: const Cabeçalho.... 
 //irei utilizar a tag header para definir o cabeçalho e irei criar uma classe, pois terá uma estilização específica: <header className="header">
@@ -15,7 +16,7 @@ const Cabecalho = () => {
         <div className="menu">
           <ul>
             <li><a href="#linkdosobre">Sobre & Empresa</a></li>
-            <li><a href="CARDAPIO.JS">Cardápio</a></li>
+            <li><Link to="/cardapio">Cardápio</Link></li>
             <li><a href="#linkdolancamentos">Lançamentos</a></li>
             <li><a href="#linkdodelivery">Delivery</a></li>
             <li><a href="#linkdocontato">Contato</a></li>
