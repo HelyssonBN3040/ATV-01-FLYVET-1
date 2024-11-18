@@ -1,9 +1,9 @@
 import React from "react";
-import HeaderCardapio from "./Componentes/HeaderCardapio";
-import PromoCardapio from "./Componentes/PromoCardapio";
-import ValoresCardapio from "./Componentes/ValoresCardapio";
+import HeaderCardapio from "../Componentes/HeaderCardapio";
+import PromoCardapio from "../Componentes/PromoCardapio";
+import ValoresCardapio from "../Componentes/ValoresCardapio";
 
-function CARDAPIO() {
+function Cardapio() {
   return (
     <div className="divcardapio">
       <header className="cardapioHeader">
@@ -21,5 +21,5 @@ function CARDAPIO() {
   );
 }
 
-export default CARDAPIO;
+export default Cardapio;
 
