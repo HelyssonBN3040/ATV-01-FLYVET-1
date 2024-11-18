@@ -4,22 +4,22 @@ import PromoCardapio from "./Componentes/PromoCardapio";
 import ValoresCardapio from "./Componentes/ValoresCardapio";
 
 function CARDAPIO() {
-    return (
-      <div className="divcardapio">
-        <header className="cardapioHeader">
+  return (
+    <div className="divcardapio">
+      <header className="cardapioHeader">
         <div className="Cardapio">
 
- <HeaderCardapio/>
+          <HeaderCardapio />
 
-<PromoCardapio/>
+          <PromoCardapio />
 
-<ValoresCardapio/>
-  
-          </div>
-        </header>
-      </div>
-    );
-  }
-  
-  export default CARDAPIO;
+          <ValoresCardapio />
+
+        </div>
+      </header>
+    </div>
+  );
+}
+
+export default CARDAPIO;
 
